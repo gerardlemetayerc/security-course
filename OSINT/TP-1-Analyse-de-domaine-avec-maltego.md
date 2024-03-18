@@ -40,4 +40,10 @@ Un ordinateur avec Maltego Community Edition installé, un accès Internet, et l
 * **Identifier des patterns** : Essayez de repérer des modèles ou des informations pertinentes concernant la sécurité ou la structure du domaine. Par exemple, des sous-domaines inattendus ou des adresses IP partageant certaines vulnérabilités.
 * **Pousser l'analyse** : sur des éléments que vous considérez comme pertinent, lancez de nouveau une transformation, et voyez quelles informations peuvent ressortir à l'aide de ces analyses supplémentaires
 
+### Etape 6 : Analyse avancée
+* Sélectionnez l'entité cible (par exemple, une application web) et appliquez les transformations pertinentes pour révéler les configurations et les technologies utilisées.
+* Documentez toute version de logiciel ou configuration potentiellement vulnérable identifiée.
+* Recherchez des correspondances dans les bases de données de vulnérabilités pour les versions de logiciels ou configurations identifiées.
+* Notez toutes les découvertes potentielles et les zones qui nécessitent une investigation plus approfondie ou un test de pénétration ciblé.
+
 Aidez-vous du fichier de template afin de fournir votre rapport d'analyse.
