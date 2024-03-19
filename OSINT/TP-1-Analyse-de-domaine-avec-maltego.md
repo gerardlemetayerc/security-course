@@ -19,7 +19,7 @@ Un ordinateur avec Maltego Community Edition installé, un accès Internet, et l
 
 ### Etape 2 : Lancement de Maltego
 
-* **Ouvrir Maltego** : Lancez Maltego sur votre ordinateur. Si c'est la première fois que vous l'utilisez, vous devrez peut-être vous enregistrer ou vous connecter.
+* **Ouvrir Maltego** : Lancez Maltego sur votre ordinateur. Si c'est la première fois que vous l'utilisez, vous devrez peut-être vous enregistrer ou vous connecter (prenez la version **Community CE**).
 * **Sélectionner un espace de travail** : Choisissez 'New' pour créer un nouvel espace de travail. Vous allez réaliser votre analyse sur cet espace vierge.
 
 ### Etape 3 : Ajout d'un nom de domaine
