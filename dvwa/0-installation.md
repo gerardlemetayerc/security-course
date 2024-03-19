@@ -118,4 +118,4 @@ sudo chmod -R 777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.
 
 2. Suivez les instructions à l'écran pour finaliser la configuration.
 
-3. Connectez-vous avec les identifiants par défaut : `admin`
+3. Connectez-vous avec les identifiants par défaut : `admin` / `password`
