@@ -6,11 +6,7 @@
    
    - Tapez `mmc` dans la boîte de dialogue "Exécuter" et appuyez sur Entrée. Cela ouvrira la Console de gestion Microsoft (MMC).
    
-   - Dans la console MMC, allez dans "Fichier" > "Ajouter/Supprimer un composant logiciel enfichable".
-   
-   - Sélectionnez "Variables d'environnement" dans la liste des composants disponibles, puis cliquez sur "Ajouter".
-   
-   - Cliquez sur "OK" pour ajouter les variables d'environnement à la console MMC.
+   - Recherchez via le menu de recherche Windows l'option `Modifiez les variables d'environnement pour votre compte`.
    
    - Dans la fenêtre "Variables d'environnement", sous l'onglet "Variables utilisateur", cliquez sur "Nouveau".
    
