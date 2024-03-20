@@ -24,7 +24,7 @@
    - Copiez le fichier de clé privée (`dvwa.key`) et le certificat auto-signé (`dvwa.crt`) dans ce répertoire.
 
 ## 5. Configuration du fichier de configuration Apache :
-   - Éditez le fichier de configuration d'Apache pour DVWA. Celui-ci est généralement situé dans `/etc/apache2/sites-available/`.
+   - Éditez le fichier de configuration d'Apache (`default-ssl.conf`) pour DVWA. Celui-ci est généralement situé dans `/etc/apache2/sites-available/`.
    - Ajoutez les lignes suivantes pour configurer le certificat auto-signé :
      ```
      SSLEngine on
