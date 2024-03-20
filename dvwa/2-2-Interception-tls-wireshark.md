@@ -40,7 +40,7 @@
    
    - Cliquez sur le bouton "Démarrer la capture" (icône du petit homme courant).
    
-   - Ouvrez votre navigateur web (Chrome ou Firefox) et commencez à naviguer sur des sites HTTPS.
+   - Ouvrez votre navigateur web (Chrome ou Firefox) et commencez à naviguer sur l'application `dvwa`.
    
    - Revenez à Wireshark après avoir effectué vos activités de navigation.
    
