@@ -34,6 +34,4 @@
 
 5. Observez le comportement de l'application dans la console du navigateur ou dans le code HTML pour voir si l'exploit CORS a réussi ou échoué.
 
-6. Répétez le test en ajustant le niveau de sécurité de DVWA pour observer comment il affecte la réussite ou l'échec de l'exploit CORS.
-
-Ceci conclut le mode opératoire pour déployer le fichier HTML sur le serveur web et tester avec le mode "low" de DVWA.
+6. Répétez le test en ajustant le niveau de sécurité de DVWA pour observer comment il affecte la réussite ou l'échec de l'exploit CORS et contrôler si ce dernier change le mot de passe (pensez à changer le mot de passe du compte entre chaque étape.
