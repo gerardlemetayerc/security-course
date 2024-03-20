@@ -26,7 +26,7 @@ sudo apt upgrade -y
 DVWA nécessite un environnement LAMP. Installez Apache, MySQL, et PHP ainsi que les extensions PHP requises.
 
 ```bash
-sudo apt install apache2 mariadb-server php php-mysqli php-gd libapache2-mod-php -y
+sudo apt install apache2 mariadb-server php php-mysqli php-gd libapache2-mod-php git -y
 ```
 
 ### Étape 3 : Configuration de la base de données MySQL
