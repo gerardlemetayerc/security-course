@@ -32,7 +32,7 @@
      SSLCertificateKeyFile /var/www/html/dvwa/dvwa.key
      ```
 
-     Votre fichier devrait ressembler à ceci : 
+     Votre fichier devrait ressembler à ceci : https://github.com/gerardlemetayerc/security-course/blob/main/dvwa/template/default-ssl.conf
    Assurez-vous de remplacer les chemins des fichiers par le chemin absolu vers les fichiers de clé privée et de certificat auto-signé que vous avez générés.
 
 ## 6. Redémarrez Apache :
