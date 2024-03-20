@@ -31,11 +31,15 @@
      SSLCertificateFile /var/www/html/dvwa/dvwa.crt
      SSLCertificateKeyFile /var/www/html/dvwa/dvwa.key
      ```
+
+     Votre fichier devrait ressembler à ceci : 
    Assurez-vous de remplacer les chemins des fichiers par le chemin absolu vers les fichiers de clé privée et de certificat auto-signé que vous avez générés.
 
 ## 6. Redémarrez Apache :
    - Utilisez la commande suivante pour redémarrer le service Apache afin que les modifications de configuration prennent effet :
      ```
+     sudo a2enmod ssl
+     sudo a2ensite default-ssl.conf
      sudo service apache2 restart
      ```
 
