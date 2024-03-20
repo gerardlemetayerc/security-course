@@ -109,7 +109,7 @@ sudo systemctl restart apache2
 
 ```bash
 sudo chmod -R 777 /var/www/html/DVWA/hackable/uploads/
-sudo chmod -R 777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
+# sudo chmod -R 777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 ```
 
 ### Étape 7 : Accéder à DVWA
