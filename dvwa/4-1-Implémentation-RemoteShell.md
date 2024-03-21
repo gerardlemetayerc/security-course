@@ -1,5 +1,30 @@
 # Exploitation de la Faille File Inclusion avec DVWA
 
+# Mode difficulté : bas (low)
+
+## Objectif
+
+Télécharger un code malveillant.
+
+## Etat du code côté DVWA
+
+- Aucun contrôle sur les upload.
+
+## Mode opératoire
+
+- Mettez DVWA en mode de difficulté "low"
+- Téléchargez le fichier contenant la console php
+- A l'aide de l'interface de téléchargement (menu **File Upload**), chargez le fichier `shell.php`. Le message suivant devrait apparaître : "../../hackable/uploads/shell.php succesfully uploaded!"
+- Accédez à la page https://votreserveurdwa/DVWA/hackable/uploads/shell.php
+- Testez les différentes lignes de commandes interprétables par le serveur :
+
+```shell
+pwd
+whoami
+ls /var/log
+less /etc/apache2/apache2.conf
+```
+
 
 # Mode difficulté : élevée (high)
 
