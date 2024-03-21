@@ -16,7 +16,8 @@
 
 4. Copiez le fichier \`index.html\` vers le répertoire de document root du serveur web. Utilisez la commande suivante :
    ```
-   sudo cp index.html /var/www/html/cors
+   mkdir /var/www/html/cors
+   sudo cp index.html /var/www/html/cors/index.html
    ```
 
 ## Test avec le Mode "Low" de DVWA :
