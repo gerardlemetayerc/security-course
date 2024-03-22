@@ -18,7 +18,9 @@ Mettalugic France, leader dans la production de pièces métalliques et basée d
        - 1 partage CIFS administratif
        - 1 partage SMBv1 pour les machines de conception
        - 1 partage CIFS pour les employés
-  - Postes de travail Windows 10, avec accès MSTSC via internet.
+  - Postes de travail Windows 10, avec accès MSTSC via internet
+       - Les postes de travail des employés de conception dispose chacun de la solution AutoCAD, permettant de réaliser les schémas d'usinages consommés par les machines de conceptions
+       - A noter :  AutoCAD est une application très consommatrice en RAM et en GPU
   - Licences Microsoft 365 Business pour chaque employé (messagerie, onedrive, sharepoint online...)
   - Réseau unifié comprenant 15 postes de travail, 10 machines de conception, le serveur et un routeur. Téléphonie via PABX.
   - La sauvegarde est réalisée via un robocopy vers un serveur NAS Synology DS223J avec 2 disques de 3 To en RAID 0
