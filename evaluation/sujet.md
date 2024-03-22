@@ -13,8 +13,13 @@ Mettalugic France, leader dans la production de pièces métalliques et basée d
 - **Activité** : Production de pièces métalliques
 - **Infrastructure IT Actuelle** :
   - Serveur Dell T110 (2014), sous Hyper-V, avec Windows Server 2012 R2.
+     - Hébergement d'un Active Directory en VM, sous Windows Server 2012 R2
+     - Hébergement d'un serveur de fichier sous Windows Server 2012 R2, avec :
+       - 1 partage CIFS administratif
+       - 1 partage SMBv1 pour les machines de conception
+       - 1 partage CIFS pour les employés
   - Postes de travail Windows 10, avec accès MSTSC via internet.
-  - Licences Microsoft 365 Business pour chaque employé.
+  - Licences Microsoft 365 Business pour chaque employé (messagerie, onedrive, sharepoint online...)
   - Réseau unifié comprenant 15 postes de travail, 10 machines de conception, le serveur et un routeur. Téléphonie via PABX.
 
 ## 3. Problèmes à Résoudre
