@@ -22,6 +22,7 @@ Mettalugic France, leader dans la production de pièces métalliques et basée d
   - Licences Microsoft 365 Business pour chaque employé (messagerie, onedrive, sharepoint online...)
   - Réseau unifié comprenant 15 postes de travail, 10 machines de conception, le serveur et un routeur. Téléphonie via PABX.
   - La sauvegarde est réalisée via un robocopy vers un serveur NAS Synology DS223J avec 2 disques de 3 To en RAID 0
+  - Le réseau est composé d'un switch CISCO de 25 ports et d'une box internet 
 
 ## 3. Problèmes à Résoudre
 
